@@ -24,3 +24,18 @@ object gimenez {
 	method dinero() { return dinero }
 	method pagarA( empleado ) { dinero -= empleado.sueldo() }
 }
+
+ 
+ 
+ 
+ 
+ 
+ 
+//pregunta.1) Si quiero agregar un nuevo empleado susini
+//¿que metodo le tengo que poner para que gimenez le pueda pagar el sueldo?
+//respuesta.1= el metodo sueldo
+
+
+//peregunta.2)donde aparece el polimorfismo.o sea : que objetos son polimorficos para que otro objeto
+//
+//
