@@ -37,3 +37,13 @@ test "gimenez"{
 	
 	
 }
+
+
+test "galvanDeudas"{
+	galvan.gastar(4000)
+	galvan.gastar(8000)
+	galvan.cobrarSueldo()
+	galvan.gastar(25000)
+	galvan.cobrarSueldo()
+	assert.equals(-7000,galvan.totalDinero())
+}
